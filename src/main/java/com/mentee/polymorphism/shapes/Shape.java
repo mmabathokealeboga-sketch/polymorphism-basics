@@ -9,6 +9,10 @@ public abstract class Shape {
     protected String color;
 
     // TODO: Create a constructor that takes name and color
+    public Shape(String name,String color){
+        this.name= name;
+        this.color = color;
+    }
 
     // Abstract methods (must be implemented by subclasses)
     public abstract double calculateArea();

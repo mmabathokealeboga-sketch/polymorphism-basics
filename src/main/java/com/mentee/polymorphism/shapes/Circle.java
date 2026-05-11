@@ -9,4 +9,34 @@ public class Circle extends Shape implements Drawable, Resizable {
     // TODO: Implement all abstract methods from Shape, Drawable, and Resizable
 
     // TODO: Override describe() if needed (optional)
+
+    public Circle(String name,String color, double radius){
+        super(name, color);
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+    @Override
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Draw a circle with  radius" + radius);
+    }
+
+    @Override
+    public void resize(double factor) {
+        this.radius = radius * factor;
+    }
+
+    @Override
+    public void describe() {
+        super.describe();
+        System.out.println("Radius:" + radius);
+    }
 }
