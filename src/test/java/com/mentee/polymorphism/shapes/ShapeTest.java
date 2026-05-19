@@ -53,7 +53,7 @@ class ShapeTest {
         assertDoesNotThrow(() -> resizableRect.resize(2.0));
     }
 
- /*   @Test
+    @Test
     void testDowncastingAndInstanceOf() {
         Shape shape = new Circle("TestCircle", "Orange", 10.0);
 
@@ -74,5 +74,5 @@ class ShapeTest {
         circle.resize(2.0); // double the size
 
         assertEquals(originalArea * 4, circle.calculateArea(), 0.001); // area scales with square of factor
-    }*/
+    }
 }

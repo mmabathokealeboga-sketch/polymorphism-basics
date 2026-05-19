@@ -39,4 +39,7 @@ public class Circle extends Shape implements Drawable, Resizable {
         super.describe();
         System.out.println("Radius:" + radius);
     }
+    public  Double getRadius(){
+        return radius;
+    }
 }
