@@ -1,4 +1,4 @@
-package com.mentee.polymorphism.shapes;
+\package com.mentee.polymorphism.shapes;
 
 public class Circle extends Shape implements Drawable, Resizable {
 
@@ -39,7 +39,11 @@ public class Circle extends Shape implements Drawable, Resizable {
         super.describe();
         System.out.println("Radius:" + radius);
     }
+<<<<<<< HEAD
     public  Double getRadius(){
+=======
+    public double getRadius(){
+>>>>>>> a84aebd (finished the shapes class and did the notificacation and payment class)
         return radius;
     }
 }

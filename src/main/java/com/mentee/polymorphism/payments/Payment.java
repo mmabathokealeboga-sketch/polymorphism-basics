@@ -7,6 +7,11 @@ public abstract class Payment {
     protected String currency;
 
     // TODO: Constructor
+    public Payment(String transactionId, Double amount, String currency){
+        this.transactionId = transactionId;
+        this.amount = amount;
+        this.currency = currency;
+    }
 
     // Abstract methods
     public abstract boolean processPayment();

@@ -1,5 +1,7 @@
 package com.mentee.polymorphism.payments;
 
 public interface Refundable {
-    boolean refund();
+    boolean refund(double amount);
+    String getRefundPolicy();
+
 }

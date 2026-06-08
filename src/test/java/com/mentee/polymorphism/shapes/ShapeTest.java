@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a84aebd (finished the shapes class and did the notificacation and payment class)
 package com.mentee.polymorphism.shapes;
 
 import org.junit.jupiter.api.Test;
@@ -76,6 +79,7 @@ class ShapeTest {
 
         assertEquals(originalArea * 4, circle.calculateArea(), 0.001); // area scales with square of factor
     }
+<<<<<<< HEAD
 }
 =======
 //package com.mentee.polymorphism.shapes;
@@ -157,3 +161,6 @@ class ShapeTest {
 //    }
 //}
 >>>>>>> 5f88498 (the notification class and child classes)
+=======
+}
+>>>>>>> a84aebd (finished the shapes class and did the notificacation and payment class)
