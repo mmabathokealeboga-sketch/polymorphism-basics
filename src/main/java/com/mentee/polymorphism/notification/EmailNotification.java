@@ -10,6 +10,16 @@ public class EmailNotification extends Notification implements Notifiable, Logga
     }
 
     @Override
+    public String getRecipient() {
+        return super.getRecipient();
+    }
+
+    @Override
+    public boolean isSent() {
+        return super.isSent();
+    }
+
+    @Override
     public boolean send() {
         System.out.println("Sending Email with subject: " + subject);
         markAsSent();
